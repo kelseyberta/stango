@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
 
 /* font-family: 'Big Shoulders Text', cursive; */
+*{
+    margin: 2px;
+}
 
 .nav-flex-row {
     display: flex;
@@ -146,7 +149,7 @@ a.link-to-book:hover {
 .section-contact{
     height: 500px;
     background-image: url(img/logo.jpg);
-    background-size: cover;
+    background-size:contain;
     display: flex;
     flex-direction: column;
     justify-content: center;
