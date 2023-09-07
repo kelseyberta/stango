@@ -52,7 +52,7 @@
         <h3>
           What flavor would you like to see next?
         </h3>
-      <form class="media-centered" action="https://formsubmit.co/948116fc554ba97ec1ca1e48e0d86715">
+      <form class="media-centered" action="https://formsubmit.co/948116fc554ba97ec1ca1e48e0d86715" method="POST">
         <!--Honeypot-->
         <input type="text" name="_honey" style="display: none;">
         
@@ -78,7 +78,15 @@
       </div>
       <div class="flex-column-form">
         <h3>We'd love To Hear From You</h3>
-        <form>
+        <form action="https://formsubmit.co/948116fc554ba97ec1ca1e48e0d86715" method="POST">
+          <!--Honeypot-->
+        <input type="text" name="_honey" style="display: none;">
+        
+        <!--Disable Captcha-->
+        <input type="hidden" name="_captcha" value="false">
+
+
+        <input type="hidden" name="_next" value="https://kelseyberta.github.io/stango/success.html">
             <div>
                 <p>Please leave a review</p>
                 <input type="text" class="form-control" name="Review" id="review" placeholder="Leave a review">
